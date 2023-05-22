@@ -1,4 +1,4 @@
-import { getAuthors } from "../utils/getDatabase";
+import { getAuthors } from "../../utils/getDatabase";
 
 export default async function handler(req, res) {
   const authors = await getAuthors();

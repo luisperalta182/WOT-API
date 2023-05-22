@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import notion from "../pages/utils/notion_api";
+import notion from "../utils/notion_api";
 
 export default function Submit() {
   const [Quote, setQuote] = useState("");

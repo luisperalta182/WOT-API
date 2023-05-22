@@ -17,6 +17,12 @@ export default async function handler(req, res) {
         }
       }
     });
+
+
+  if (response.results.length === 0) {
+    return res.status(404).json({ message: "Author not found" });
+  }
+
   
     const quotes = response.results.map(page => ({
       quote: page.properties.Quote.title[0].plain_text,

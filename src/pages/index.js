@@ -4,10 +4,6 @@ import { Client } from "@notionhq/client";
 
 const index = ({results}) => {
 
-  useEffect(() => {
-    console.log(results)
-  });
-
   const getDatabaseDisplay = () =>{
     let jsx = [];
     results.forEach((element) => {
