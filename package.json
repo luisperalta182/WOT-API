@@ -21,6 +21,7 @@
     "tailwindcss": "3.3.2"
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0"
+    "babel-eslint": "^10.1.0",
+    "eslint-config-prettier": "^8.8.0"
   }
 }
